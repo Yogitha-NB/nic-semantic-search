@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+
+  /* Soft colour washes in the page corners; fixed so they stay put while scrolling */
+  body {
+    @apply font-sans text-ink antialiased;
+    background-color: theme("colors.paper");
+    background-image:
+      radial-gradient(900px 420px at 100% 0%, rgba(255, 107, 87, 0.09), transparent 60%),
+      radial-gradient(800px 420px at 0% 35%, rgba(45, 201, 168, 0.09), transparent 60%),
+      radial-gradient(700px 400px at 100% 85%, rgba(59, 75, 219, 0.07), transparent 60%);
+    background-attachment: fixed;
+  }
+
+  /* Clear, consistent keyboard focus for every interactive element */
+  :focus-visible {
+    @apply outline-none ring-2 ring-brand-600 ring-offset-2 ring-offset-white;
+  }
+
+  ::selection {
+    @apply bg-sun/60;
+  }
+}
+
+@layer components {
+  /* NIC codes are identifiers: tabular digits keep them aligned and easy to read */
+  .nic-code {
+    @apply font-display font-semibold tabular-nums tracking-wide;
+  }
+}
+
+/* Respect users who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

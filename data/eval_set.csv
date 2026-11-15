@@ -1,0 +1,56 @@
+query,expected_codes,type
+We grow jute on our farm and sell the fibre,011602,paraphrase
+I rear silkworms and sell the cocoons,014903,paraphrase
+We run a freshwater fish hatchery that produces fish seed,032203,paraphrase
+We mine and sell raw gemstones such as emerald and garnet,089901,paraphrase
+We make oil cakes and meal left over from pressing oilseeds,104007,paraphrase
+We make ready-to-eat cooked fish and seafood meals,107502,paraphrase
+We do the bidi binding work for a manufacturer,120002,paraphrase
+We manufacture tablecloths and kitchen linen,139205,paraphrase
+We do embroidery work on leather bags and wallets,151105,paraphrase
+We print cheques and other security paper for banks,181103,paraphrase
+We manufacture printing ink,202203,paraphrase
+We make rubber gaskets and seals for machines,221904,paraphrase
+We manufacture bricks from fly ash,239508,paraphrase
+We build industrial steam boilers,251301,paraphrase
+We manufacture TV antennas and DTH dish equipment,263004,paraphrase
+We build machines that tanneries use to process hides,282606,paraphrase
+We build spacecraft structures and propulsion systems,303007,paraphrase
+We make artificial limbs and orthopaedic braces,325006,paraphrase
+We run a hydroelectric power plant,351201,paraphrase
+We recycle and safely dispose of electronic waste,382202,paraphrase
+We are wholesale traders of livestock and poultry,462003,paraphrase
+We wholesale laptops and computers to shops,465101,paraphrase
+We wholesale aluminium plates and copper wire,467207,paraphrase
+We run a shop selling televisions and radios,474005,paraphrase
+We run a store selling leather jackets and clothing accessories,477104,paraphrase
+We provide firefighting and fire prevention services at airports,522306,paraphrase
+We run the canteen inside a factory,562902,paraphrase
+We are a reinsurance company that covers other insurers,652000,paraphrase
+I am a fashion designer for clothing shoes and jewellery,741001,paraphrase
+We run a cancer hospital with inpatient wards,861002,paraphrase
+We run an assisted living home for senior citizens,873001,paraphrase
+We connect customers with repair technicians for laptops and appliances,954001,paraphrase
+We operate courts that hear civil and criminal cases,842303,paraphrase
+I sell and repair mobile phones,474004|951001,own
+We make pickles and papad at home and sell them,103005|107903,own
+I run a tailoring shop and stitch blouses and uniforms,141006,own
+I drive a taxi and also take outstation trips,492203,own
+We have a small dairy farm and sell milk,014101,own
+I run a small restaurant serving south indian meals,561001,own
+We run a private clinic with two doctors,862001|862002,own
+I design websites for local shops,621904,own
+We run a coaching centre for school students,855901,own
+We sell groceries and daily household items in our village shop,471100|471900,own
+I run a beauty parlour with haircuts and facials,962100|962201,own
+We make wooden furniture for homes and offices,310101,own
+I own a truck and carry goods between cities,492301,own
+We run a medical store selling medicines,477201,own
+I run a gym and give fitness training,931103,own
+We do house painting and plastering,433003,own
+We run a small hotel with rooms for guests,551001|551099,own
+I grow rice on my farm,011201|011202,own
+We make plastic containers and bottles,222003,own
+We sell clothes online through Instagram,477101|477199,own
+I do accounting and GST filing for small businesses,692001|692003,own
+We run a bakery selling bread and cakes,107101|107199|472104,own

@@ -1,0 +1,34 @@
+# ---------------------------------------------------------------------------
+# NIC Semantic Search - backend dependencies (pinned)
+#
+# LOW-RAM TIP (Windows): install the CPU-only build of PyTorch FIRST. It is far
+# smaller than the default CUDA build and uses less memory:
+#
+#   pip install torch==2.4.1 --index-url https://download.pytorch.org/whl/cpu
+#   pip install -r requirements.txt
+#
+# pip treats the already-installed "2.4.1+cpu" wheel as satisfying torch==2.4.1.
+# ---------------------------------------------------------------------------
+
+# Web framework
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+pydantic==2.9.2
+pydantic-settings==2.5.2
+
+# Embeddings (local, CPU)
+torch==2.4.1
+sentence-transformers==3.1.1
+transformers==4.44.2
+numpy==1.26.4
+
+# Vector database
+pinecone==5.3.1
+
+# LLM via Groq + LangChain
+langchain-core==0.3.9
+langchain-groq==0.2.0
+
+# Ingestion script
+pandas==2.2.3
+tqdm==4.66.5
